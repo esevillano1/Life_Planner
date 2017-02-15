@@ -1,0 +1,62 @@
+/* Empty. Add your own CSS if you like */
+#reminder{
+  text-align: center;
+  padding-top: 20px;
+}
+
+#proj_name, 
+#proj_date{
+  font-size: 11px;
+  position: relative;
+  top: -5px;
+}
+
+#proj_name, 
+#proj_date, 
+#proj_desc{
+  color: #FFFFFF;
+}
+
+.card > .item.item-divider{
+  text-align: center;
+}
+
+.icon.ion-ios-arrow-down, 
+.icon.ion-ios-arrow-up, 
+.filter{
+  font-size: 11px;
+  position: relative;
+}
+
+.icon.ion-ios-arrow-down, 
+.icon.ion-ios-arrow-up{
+  float: left;
+}
+
+.filter{
+  float: right;
+}
+
+.icon{
+  color: #000000;
+}
+
+.ion-ios-plus-outline{
+  position: relative;
+  top: 2px;
+  left: 5px;
+  font-size: 20px;
+}
+
+ion-item.post{
+  background-color: rgba(0, 0, 255, 1.0);
+}
+
+ion-item.error{
+  background-color: rgba(255, 0, 0, 0.85);
+}
+
+ion-item.solution{
+  background-color: rgba(0, 128, 0, 0.85);
+}
+
